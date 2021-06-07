@@ -1,5 +1,6 @@
 package net.corda.samples.carinsurance.flows
 
+import net.corda.core.contracts.StateAndRef
 import net.corda.core.flows.FlowLogic
 import net.corda.core.flows.InitiatingFlow
 import net.corda.core.node.services.Vault
@@ -11,8 +12,9 @@ import net.corda.samples.carinsurance.states.InsuranceState
 
 
 @InitiatingFlow
-class QueryConsumed(private val policyNumber: String, private val status: Vault.StateStatus) : FlowLogic<Int>() {
-    override fun call(): Int {
+class QueryConsumed(private val policyNumber: String, private val status: Vault.StateStatus) :
+    FlowLogic<List<StateAndRef<InsuranceState>>>() {
+    override fun call(): List<StateAndRef<InsuranceState>> {
         val generalQuery = QueryCriteria.VaultQueryCriteria(Vault.StateStatus.ALL)
         val index = InsuranceSchemaV1.PersistentInsurance::policyNumber.equal(policyNumber)
 
@@ -20,7 +22,6 @@ class QueryConsumed(private val policyNumber: String, private val status: Vault.
         val customCriteria = QueryCriteria.VaultCustomQueryCriteria(index, status)
 
         val criteria = generalQuery.and(customCriteria)
-        val states = serviceHub.vaultService.queryBy<InsuranceState>(criteria).states
-        return states.size
+        return serviceHub.vaultService.queryBy<InsuranceState>(criteria).states
     }
 }

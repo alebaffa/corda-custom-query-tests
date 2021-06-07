@@ -18,12 +18,7 @@ import net.corda.samples.carinsurance.states.InsuranceState
 class BurnInsurance(val policy: String) : FlowLogic<Unit>() {
     @Suspendable
     override fun call() {
-        val generalQuery = QueryCriteria.VaultQueryCriteria(Vault.StateStatus.UNCONSUMED)
-        val index = InsuranceSchemaV1.PersistentInsurance::policyNumber.equal(policy)
-        val customCriteria = QueryCriteria.VaultCustomQueryCriteria(index)
-        val criteria = generalQuery.and(customCriteria)
-        val states = serviceHub.vaultService.queryBy<InsuranceState>(criteria).states
-
+        val states = subFlow(QueryConsumed(policy, Vault.StateStatus.UNCONSUMED))
         val notary = serviceHub.networkMapCache.notaryIdentities.single()
         val txBuilder = TransactionBuilder(notary)
                 .addCommand(InsuranceContract.Commands.Burn(), listOf(ourIdentity.owningKey))
