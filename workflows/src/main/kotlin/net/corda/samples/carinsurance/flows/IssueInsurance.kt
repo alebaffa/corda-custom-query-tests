@@ -1,6 +1,7 @@
 package net.corda.samples.carinsurance.flows
 
 import co.paralleluniverse.fibers.Suspendable
+import net.corda.core.contracts.requireThat
 import net.corda.core.flows.*
 import net.corda.core.identity.Party
 import net.corda.core.serialization.CordaSerializable
@@ -55,23 +56,18 @@ class IssueInsurance(val insuranceInfo: InsuranceInfo,
 
         // Sign the transaction
         val stx = serviceHub.signInitialTransaction(txBuilder)
+        val ownerSession = initiateFlow(insuree)
 
         // Call finality Flow
-        val ownerSession = initiateFlow(insuree)
         return subFlow(FinalityFlow(stx, listOf(ownerSession)))
     }
 }
 
 @InitiatedBy(IssueInsurance::class)
-class IssueInsuranceResponder(val counterpartySession: FlowSession) : FlowLogic<SignedTransaction>() {
+class IssueInsuranceResponder(val counterpartySession: FlowSession) : FlowLogic<Unit>() {
     @Suspendable
-    override fun call(): SignedTransaction {
-        subFlow(object : SignTransactionFlow(counterpartySession) {
-            @Throws(FlowException::class)
-            override fun checkTransaction(stx: SignedTransaction) {
-            }
-        })
-        return subFlow(ReceiveFinalityFlow(counterpartySession))
+    override fun call() {
+        subFlow(ReceiveFinalityFlow(counterpartySession))
     }
 }
 

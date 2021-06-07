@@ -4,6 +4,7 @@ import com.google.common.collect.ImmutableList
 import net.corda.core.concurrent.CordaFuture
 import net.corda.core.node.services.Vault
 import net.corda.core.utilities.getOrThrow
+import net.corda.testing.internal.vault.VaultFiller
 import net.corda.testing.node.MockNetwork
 import net.corda.testing.node.MockNetworkParameters
 import net.corda.testing.node.TestCordapp
@@ -11,6 +12,7 @@ import org.junit.After
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test
+import org.junit.rules.ExternalResource
 
 class FlowTests {
     private val network = MockNetwork(MockNetworkParameters(ImmutableList.of(
