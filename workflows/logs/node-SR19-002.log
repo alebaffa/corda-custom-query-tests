@@ -6203,3 +6203,575 @@ net.corda.core.flows.UnexpectedFlowEndException: Received session end message in
 [INFO ] 2021-06-07T03:20:22,881Z [Test worker] persistence.CordaPersistence. - Closing HikariDataSource (HikariPool-3) {}
 [INFO ] 2021-06-07T03:20:22,939Z [Test worker] internal.MockNodeMessagingService. - Status change to false {}
 [INFO ] 2021-06-07T03:20:22,939Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: false {}
+[INFO ] 2021-06-07T03:52:13,678Z [Test worker] internal.TestCordappImpl. - Generating CorDapp jar from local project in C:\workspace\corda-custom-query-tests\workflows ... {}
+[INFO ] 2021-06-07T03:52:14,132Z [Connection worker] internal.TestCordappImpl. - Build {}
+[INFO ] 2021-06-07T03:52:17,103Z [Connection worker] internal.TestCordappImpl. - Starting Gradle Daemon {}
+[INFO ] 2021-06-07T03:52:19,306Z [Connection worker] internal.TestCordappImpl. - Connecting to Gradle Daemon {}
+[INFO ] 2021-06-07T03:52:19,323Z [Connection worker] internal.TestCordappImpl. - Starting Gradle Daemon {}
+[INFO ] 2021-06-07T03:52:19,324Z [Connection worker] internal.TestCordappImpl. - Build {}
+[INFO ] 2021-06-07T03:52:20,184Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T03:52:20,243Z [Connection worker] internal.TestCordappImpl. - Evaluate settings {}
+[INFO ] 2021-06-07T03:52:21,147Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T03:52:21,163Z [Connection worker] internal.TestCordappImpl. - Configure build {}
+[INFO ] 2021-06-07T03:52:21,163Z [Connection worker] internal.TestCordappImpl. - Load projects {}
+[INFO ] 2021-06-07T03:52:21,288Z [Connection worker] internal.TestCordappImpl. - Configure build {}
+[INFO ] 2021-06-07T03:52:21,304Z [Connection worker] internal.TestCordappImpl. - Configure project : {}
+[INFO ] 2021-06-07T03:52:21,772Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :classpath {}
+[INFO ] 2021-06-07T03:52:22,764Z [Connection worker] internal.TestCordappImpl. - Configure project : {}
+[INFO ] 2021-06-07T03:52:22,779Z [Connection worker] internal.TestCordappImpl. - Resolve files of :classpath {}
+[INFO ] 2021-06-07T03:52:22,827Z [Connection worker] internal.TestCordappImpl. - Configure project : {}
+[INFO ] 2021-06-07T03:52:22,827Z [Connection worker] internal.TestCordappImpl. - Resolve files of :classpath {}
+[INFO ] 2021-06-07T03:52:22,827Z [Connection worker] internal.TestCordappImpl. - Configure project : {}
+[INFO ] 2021-06-07T03:52:24,590Z [Connection worker] internal.TestCordappImpl. - Configure build {}
+[INFO ] 2021-06-07T03:52:24,591Z [Connection worker] internal.TestCordappImpl. - Configure project :clients {}
+[INFO ] 2021-06-07T03:52:24,793Z [Connection worker] internal.TestCordappImpl. - Configure build {}
+[INFO ] 2021-06-07T03:52:24,793Z [Connection worker] internal.TestCordappImpl. - Configure project :contracts {}
+[INFO ] 2021-06-07T03:52:24,855Z [Connection worker] internal.TestCordappImpl. - Configure build {}
+[INFO ] 2021-06-07T03:52:24,855Z [Connection worker] internal.TestCordappImpl. - Configure project :workflows {}
+[INFO ] 2021-06-07T03:52:25,015Z [Connection worker] internal.TestCordappImpl. - Configure build {}
+[INFO ] 2021-06-07T03:52:25,060Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T03:52:25,283Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :workflows:kotlinCompilerClasspath {}
+[INFO ] 2021-06-07T03:52:25,298Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T03:52:25,298Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:kotlinCompilerClasspath {}
+[INFO ] 2021-06-07T03:52:25,299Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T03:52:25,314Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :contracts:kotlinCompilerClasspath {}
+[INFO ] 2021-06-07T03:52:25,330Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T03:52:25,331Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:kotlinCompilerClasspath {}
+[INFO ] 2021-06-07T03:52:25,331Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T03:52:25,346Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:25,395Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T03:52:25,415Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:kotlinCompilerClasspath {}
+[INFO ] 2021-06-07T03:52:25,415Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T03:52:25,534Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :contracts:kotlinCompilerPluginClasspath {}
+[INFO ] 2021-06-07T03:52:25,564Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T03:52:25,564Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:kotlinCompilerPluginClasspath {}
+[INFO ] 2021-06-07T03:52:25,565Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T03:52:25,580Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :contracts:compileClasspath {}
+[INFO ] 2021-06-07T03:52:26,304Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T03:52:26,304Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:compileClasspath {}
+[INFO ] 2021-06-07T03:52:26,351Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T03:52:27,038Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:compileClasspath {}
+[INFO ] 2021-06-07T03:52:27,149Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T03:52:27,165Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:kotlinCompilerPluginClasspath {}
+[INFO ] 2021-06-07T03:52:27,165Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T03:52:27,212Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,212Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileJava {}
+[INFO ] 2021-06-07T03:52:27,212Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,228Z [Connection worker] internal.TestCordappImpl. - Task :contracts:processResources {}
+[INFO ] 2021-06-07T03:52:27,229Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,229Z [Connection worker] internal.TestCordappImpl. - Task :contracts:classes {}
+[INFO ] 2021-06-07T03:52:27,229Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,229Z [Connection worker] internal.TestCordappImpl. - Task :contracts:configureCordappFatJar {}
+[INFO ] 2021-06-07T03:52:27,244Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :contracts:runtime {}
+[INFO ] 2021-06-07T03:52:27,276Z [Connection worker] internal.TestCordappImpl. - Task :contracts:configureCordappFatJar {}
+[INFO ] 2021-06-07T03:52:27,276Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:runtime {}
+[INFO ] 2021-06-07T03:52:27,308Z [Connection worker] internal.TestCordappImpl. - Task :contracts:configureCordappFatJar {}
+[INFO ] 2021-06-07T03:52:27,308Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:runtime {}
+[INFO ] 2021-06-07T03:52:27,308Z [Connection worker] internal.TestCordappImpl. - Task :contracts:configureCordappFatJar {}
+[INFO ] 2021-06-07T03:52:27,308Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:runtime {}
+[INFO ] 2021-06-07T03:52:27,309Z [Connection worker] internal.TestCordappImpl. - Task :contracts:configureCordappFatJar {}
+[INFO ] 2021-06-07T03:52:27,309Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,309Z [Connection worker] internal.TestCordappImpl. - Task :contracts:inspectClassesForKotlinIC {}
+[INFO ] 2021-06-07T03:52:27,325Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,326Z [Connection worker] internal.TestCordappImpl. - Task :contracts:jar {}
+[INFO ] 2021-06-07T03:52:27,356Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,357Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T03:52:27,357Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:kotlinCompilerClasspath {}
+[INFO ] 2021-06-07T03:52:27,357Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T03:52:27,372Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :workflows:kotlinCompilerPluginClasspath {}
+[INFO ] 2021-06-07T03:52:27,375Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T03:52:27,375Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:kotlinCompilerPluginClasspath {}
+[INFO ] 2021-06-07T03:52:27,375Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T03:52:27,375Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :workflows:compileClasspath {}
+[INFO ] 2021-06-07T03:52:27,450Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T03:52:27,450Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:compileClasspath {}
+[INFO ] 2021-06-07T03:52:27,450Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T03:52:27,466Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:compileClasspath {}
+[INFO ] 2021-06-07T03:52:27,482Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T03:52:27,482Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:kotlinCompilerPluginClasspath {}
+[INFO ] 2021-06-07T03:52:27,482Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T03:52:27,482Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,483Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileJava {}
+[INFO ] 2021-06-07T03:52:27,498Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,498Z [Connection worker] internal.TestCordappImpl. - Task :workflows:processResources {}
+[INFO ] 2021-06-07T03:52:27,498Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,499Z [Connection worker] internal.TestCordappImpl. - Task :workflows:classes {}
+[INFO ] 2021-06-07T03:52:27,499Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,499Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T03:52:27,513Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :workflows:runtime {}
+[INFO ] 2021-06-07T03:52:27,531Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T03:52:27,531Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:runtime {}
+[INFO ] 2021-06-07T03:52:27,544Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T03:52:27,544Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:runtime {}
+[INFO ] 2021-06-07T03:52:27,544Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T03:52:27,545Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:runtime {}
+[INFO ] 2021-06-07T03:52:27,545Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T03:52:27,545Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:runtime {}
+[INFO ] 2021-06-07T03:52:27,545Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T03:52:27,545Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:runtime {}
+[INFO ] 2021-06-07T03:52:27,545Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T03:52:27,545Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,545Z [Connection worker] internal.TestCordappImpl. - Task :workflows:inspectClassesForKotlinIC {}
+[INFO ] 2021-06-07T03:52:27,545Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,545Z [Connection worker] internal.TestCordappImpl. - Task :workflows:jar {}
+[INFO ] 2021-06-07T03:52:27,576Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T03:52:27,591Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T03:52:27,591Z [Connection worker] internal.TestCordappImpl. - Build model 'java.lang.Void' for project ':workflows' {}
+[INFO ] 2021-06-07T03:52:27,591Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T03:52:27,617Z [Connection worker] internal.TestCordappImpl. - Build {}
+[INFO ] 2021-06-07T03:52:27,686Z [Connection worker] internal.TestCordappImpl. - Deleting unused version-specific caches in C:\workspace\corda-custom-query-tests\.gradle {}
+[INFO ] 2021-06-07T03:52:27,686Z [Connection worker] internal.TestCordappImpl. - Build {}
+[INFO ] 2021-06-07T03:52:27,738Z [Connection worker] internal.TestCordappImpl. -  {}
+[INFO ] 2021-06-07T03:52:34,487Z [Test worker] cordapp.JarScanningCordappLoader. - Looking for CorDapps in [build\mock-network\20210607-035211.210-4E030E06FD702BA0\nodes\0\cordapps] {}
+[INFO ] 2021-06-07T03:52:34,507Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-035211.210-4E030E06FD702BA0/nodes/0/cordapps/contracts-0.1.jar, rootPackageName=null), RestrictedURL(url=file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-035211.210-4E030E06FD702BA0/nodes/0/cordapps/workflows-0.1.jar, rootPackageName=null) {}
+[INFO ] 2021-06-07T03:52:34,536Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-035211.210-4E030E06FD702BA0/nodes/0/cordapps/contracts-0.1.jar {}
+[INFO ] 2021-06-07T03:52:34,875Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-035211.210-4E030E06FD702BA0/nodes/0/cordapps/workflows-0.1.jar {}
+[INFO ] 2021-06-07T03:52:37,036Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: false {}
+[INFO ] 2021-06-07T03:52:37,983Z [Test worker] internal.InternalMockNetwork$MockNode. - Flow external operation executor has a max of 2 threads {}
+[INFO ] 2021-06-07T03:52:38,082Z [Test worker] internal.InternalMockNetwork$MockNode. - Node starting up ... {}
+[INFO ] 2021-06-07T03:52:38,252Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.BurnInsurance to initiate net.corda.samples.carinsurance.flows.BurnResponder (version 1) {}
+[INFO ] 2021-06-07T03:52:38,253Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.InsuranceClaim to initiate net.corda.samples.carinsurance.flows.InsuranceClaimResponder (version 1) {}
+[INFO ] 2021-06-07T03:52:38,253Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.IssueInsurance to initiate net.corda.samples.carinsurance.flows.IssueInsuranceResponder (version 1) {}
+[INFO ] 2021-06-07T03:52:38,440Z [Test worker] internal.InternalMockNetwork$MockNode. - Loaded network parameters: NetworkParameters {
+      minimumPlatformVersion=1
+      notaries=[NotaryInfo(identity=O=Notary Service, L=Zurich, C=CH, validating=true)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2021-06-07T03:52:11.089Z
+      epoch=1
+  } {}
+[INFO ] 2021-06-07T03:52:45,209Z [Test worker] internal.InternalMockNetwork$MockNode. - Connected to H2 database. {}
+[INFO ] 2021-06-07T03:52:45,357Z [Test worker] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1), JPANotarySchemaV1(name=net.corda.notary.jpa.JPANotarySchema, version=1)] {}
+[INFO ] 2021-06-07T03:52:45,365Z [Test worker] factory.BaseSessionFactoryFactory. - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1), JPANotarySchemaV1(name=net.corda.notary.jpa.JPANotarySchema, version=1)] {}
+[INFO ] 2021-06-07T03:52:48,923Z [Test worker] factory.BaseSessionFactoryFactory. - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1), JPANotarySchemaV1(name=net.corda.notary.jpa.JPANotarySchema, version=1)] {}
+[INFO ] 2021-06-07T03:52:49,469Z [Test worker] internal.InternalMockNetwork$MockNode. - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2021-06-07T03:52:49,470Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623037969469) {}
+[INFO ] 2021-06-07T03:52:49,481Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Notary Service, L=Zurich, C=CH {}
+[INFO ] 2021-06-07T03:52:49,876Z [Test worker] internal.InternalMockNetwork$MockNode. - New node-info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623037969469) {}
+[INFO ] 2021-06-07T03:52:49,978Z [Test worker] network.NetworkMapUpdater. - Auto-accept enabled for network parameter changes which modify only: [epoch, modifiedTime, packageOwnership, whitelistedContractImplementations] {}
+[INFO ] 2021-06-07T03:52:49,999Z [Test worker] internal.MockNodeMessagingService. - Status change to true {}
+[INFO ] 2021-06-07T03:52:50,003Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: true {}
+[INFO ] 2021-06-07T03:52:50,014Z [MockNode-1-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623037969469) {}
+[INFO ] 2021-06-07T03:52:50,067Z [MockNode-1-2] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T03:52:50,299Z [Test worker] persistence.NodeAttachmentService. - Stored new attachment: id=EB8B63CFC03E495C3F18E00221963B544ABE69371C3077A4D608AA257F53E09B uploader=app filename=Queryablestate Car Insurance {}
+[INFO ] 2021-06-07T03:52:50,315Z [Test worker] utilities.NotaryLoader. - Starting notary service: class net.corda.notary.jpa.JPANotaryService {}
+[INFO ] 2021-06-07T03:52:51,025Z [Test worker] statemachine.SingleThreadedStateMachineManager. - Node ready, info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623037969469) {}
+[INFO ] 2021-06-07T03:52:51,037Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623037969469) {}
+[INFO ] 2021-06-07T03:52:51,042Z [Test worker] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T03:52:51,043Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623037969469) {}
+[INFO ] 2021-06-07T03:52:51,044Z [Test worker] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T03:52:51,075Z [Test worker] cordapp.JarScanningCordappLoader. - Looking for CorDapps in [build\mock-network\20210607-035211.210-4E030E06FD702BA0\nodes\1\cordapps] {}
+[INFO ] 2021-06-07T03:52:51,076Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-035211.210-4E030E06FD702BA0/nodes/1/cordapps/contracts-0.1.jar, rootPackageName=null), RestrictedURL(url=file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-035211.210-4E030E06FD702BA0/nodes/1/cordapps/workflows-0.1.jar, rootPackageName=null) {}
+[INFO ] 2021-06-07T03:52:51,076Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-035211.210-4E030E06FD702BA0/nodes/1/cordapps/contracts-0.1.jar {}
+[INFO ] 2021-06-07T03:52:51,176Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-035211.210-4E030E06FD702BA0/nodes/1/cordapps/workflows-0.1.jar {}
+[INFO ] 2021-06-07T03:52:51,251Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: false {}
+[INFO ] 2021-06-07T03:52:51,253Z [Test worker] internal.InternalMockNetwork$MockNode. - Flow external operation executor has a max of 2 threads {}
+[INFO ] 2021-06-07T03:52:51,258Z [Test worker] internal.InternalMockNetwork$MockNode. - Node starting up ... {}
+[INFO ] 2021-06-07T03:52:51,329Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.BurnInsurance to initiate net.corda.samples.carinsurance.flows.BurnResponder (version 1) {}
+[INFO ] 2021-06-07T03:52:51,330Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.InsuranceClaim to initiate net.corda.samples.carinsurance.flows.InsuranceClaimResponder (version 1) {}
+[INFO ] 2021-06-07T03:52:51,330Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.IssueInsurance to initiate net.corda.samples.carinsurance.flows.IssueInsuranceResponder (version 1) {}
+[INFO ] 2021-06-07T03:52:51,336Z [Test worker] internal.InternalMockNetwork$MockNode. - Loaded network parameters: NetworkParameters {
+      minimumPlatformVersion=1
+      notaries=[NotaryInfo(identity=O=Notary Service, L=Zurich, C=CH, validating=true)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2021-06-07T03:52:11.089Z
+      epoch=1
+  } {}
+[INFO ] 2021-06-07T03:52:51,970Z [Test worker] internal.InternalMockNetwork$MockNode. - Connected to H2 database. {}
+[INFO ] 2021-06-07T03:52:51,977Z [Test worker] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1)] {}
+[INFO ] 2021-06-07T03:52:51,977Z [Test worker] factory.BaseSessionFactoryFactory. - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1)] {}
+[INFO ] 2021-06-07T03:52:52,761Z [Test worker] factory.BaseSessionFactoryFactory. - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1)] {}
+[INFO ] 2021-06-07T03:52:52,763Z [Test worker] internal.InternalMockNetwork$MockNode. - identity-private-key not found in key store, generating fresh key! {}
+[INFO ] 2021-06-07T03:52:52,799Z [Test worker] internal.InternalMockNetwork$MockNode. - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2021-06-07T03:52:52,799Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623037972799) {}
+[INFO ] 2021-06-07T03:52:52,803Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Mock Company 1, L=London, C=GB {}
+[INFO ] 2021-06-07T03:52:52,817Z [Test worker] internal.InternalMockNetwork$MockNode. - New node-info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623037972799) {}
+[INFO ] 2021-06-07T03:52:52,832Z [Test worker] network.NetworkMapUpdater. - Auto-accept enabled for network parameter changes which modify only: [epoch, modifiedTime, packageOwnership, whitelistedContractImplementations] {}
+[INFO ] 2021-06-07T03:52:52,835Z [Test worker] internal.MockNodeMessagingService. - Status change to true {}
+[INFO ] 2021-06-07T03:52:52,835Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: true {}
+[INFO ] 2021-06-07T03:52:52,841Z [MockNode-2-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623037972799) {}
+[INFO ] 2021-06-07T03:52:52,850Z [MockNode-2-2] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T03:52:52,933Z [Test worker] persistence.NodeAttachmentService. - Stored new attachment: id=EB8B63CFC03E495C3F18E00221963B544ABE69371C3077A4D608AA257F53E09B uploader=app filename=Queryablestate Car Insurance {}
+[INFO ] 2021-06-07T03:52:52,970Z [Test worker] statemachine.SingleThreadedStateMachineManager. - Node ready, info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623037972799) {}
+[INFO ] 2021-06-07T03:52:52,970Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623037969469) {}
+[INFO ] 2021-06-07T03:52:52,974Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Notary Service, L=Zurich, C=CH {}
+[INFO ] 2021-06-07T03:52:52,993Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623037972799) {}
+[INFO ] 2021-06-07T03:52:52,995Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Mock Company 1, L=London, C=GB {}
+[INFO ] 2021-06-07T03:52:53,017Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623037972799) {}
+[INFO ] 2021-06-07T03:52:53,017Z [Test worker] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T03:52:53,018Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623037972799) {}
+[INFO ] 2021-06-07T03:52:53,018Z [Test worker] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T03:52:53,044Z [Test worker] cordapp.JarScanningCordappLoader. - Looking for CorDapps in [build\mock-network\20210607-035211.210-4E030E06FD702BA0\nodes\2\cordapps] {}
+[INFO ] 2021-06-07T03:52:53,045Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-035211.210-4E030E06FD702BA0/nodes/2/cordapps/contracts-0.1.jar, rootPackageName=null), RestrictedURL(url=file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-035211.210-4E030E06FD702BA0/nodes/2/cordapps/workflows-0.1.jar, rootPackageName=null) {}
+[INFO ] 2021-06-07T03:52:53,045Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-035211.210-4E030E06FD702BA0/nodes/2/cordapps/contracts-0.1.jar {}
+[INFO ] 2021-06-07T03:52:53,127Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-035211.210-4E030E06FD702BA0/nodes/2/cordapps/workflows-0.1.jar {}
+[INFO ] 2021-06-07T03:52:53,182Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: false {}
+[INFO ] 2021-06-07T03:52:53,185Z [Test worker] internal.InternalMockNetwork$MockNode. - Flow external operation executor has a max of 2 threads {}
+[INFO ] 2021-06-07T03:52:53,189Z [Test worker] internal.InternalMockNetwork$MockNode. - Node starting up ... {}
+[INFO ] 2021-06-07T03:52:53,260Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.BurnInsurance to initiate net.corda.samples.carinsurance.flows.BurnResponder (version 1) {}
+[INFO ] 2021-06-07T03:52:53,260Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.InsuranceClaim to initiate net.corda.samples.carinsurance.flows.InsuranceClaimResponder (version 1) {}
+[INFO ] 2021-06-07T03:52:53,260Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.IssueInsurance to initiate net.corda.samples.carinsurance.flows.IssueInsuranceResponder (version 1) {}
+[INFO ] 2021-06-07T03:52:53,266Z [Test worker] internal.InternalMockNetwork$MockNode. - Loaded network parameters: NetworkParameters {
+      minimumPlatformVersion=1
+      notaries=[NotaryInfo(identity=O=Notary Service, L=Zurich, C=CH, validating=true)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2021-06-07T03:52:11.089Z
+      epoch=1
+  } {}
+[INFO ] 2021-06-07T03:52:53,814Z [Test worker] internal.InternalMockNetwork$MockNode. - Connected to H2 database. {}
+[INFO ] 2021-06-07T03:52:53,819Z [Test worker] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1)] {}
+[INFO ] 2021-06-07T03:52:53,819Z [Test worker] factory.BaseSessionFactoryFactory. - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1)] {}
+[INFO ] 2021-06-07T03:52:54,062Z [Test worker] factory.BaseSessionFactoryFactory. - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1)] {}
+[INFO ] 2021-06-07T03:52:54,065Z [Test worker] internal.InternalMockNetwork$MockNode. - identity-private-key not found in key store, generating fresh key! {}
+[INFO ] 2021-06-07T03:52:54,106Z [Test worker] internal.InternalMockNetwork$MockNode. - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2021-06-07T03:52:54,106Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623037974106) {}
+[INFO ] 2021-06-07T03:52:54,109Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Mock Company 2, L=London, C=GB {}
+[INFO ] 2021-06-07T03:52:54,122Z [Test worker] internal.InternalMockNetwork$MockNode. - New node-info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623037974106) {}
+[INFO ] 2021-06-07T03:52:54,140Z [Test worker] network.NetworkMapUpdater. - Auto-accept enabled for network parameter changes which modify only: [epoch, modifiedTime, packageOwnership, whitelistedContractImplementations] {}
+[INFO ] 2021-06-07T03:52:54,141Z [Test worker] internal.MockNodeMessagingService. - Status change to true {}
+[INFO ] 2021-06-07T03:52:54,141Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: true {}
+[INFO ] 2021-06-07T03:52:54,149Z [MockNode-3-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623037974106) {}
+[INFO ] 2021-06-07T03:52:54,158Z [MockNode-3-2] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T03:52:54,253Z [Test worker] persistence.NodeAttachmentService. - Stored new attachment: id=EB8B63CFC03E495C3F18E00221963B544ABE69371C3077A4D608AA257F53E09B uploader=app filename=Queryablestate Car Insurance {}
+[INFO ] 2021-06-07T03:52:54,282Z [Test worker] statemachine.SingleThreadedStateMachineManager. - Node ready, info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623037974106) {}
+[INFO ] 2021-06-07T03:52:54,282Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623037969469) {}
+[INFO ] 2021-06-07T03:52:54,286Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Notary Service, L=Zurich, C=CH {}
+[INFO ] 2021-06-07T03:52:54,304Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623037974106) {}
+[INFO ] 2021-06-07T03:52:54,306Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Mock Company 2, L=London, C=GB {}
+[INFO ] 2021-06-07T03:52:54,323Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623037972799) {}
+[INFO ] 2021-06-07T03:52:54,326Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Mock Company 1, L=London, C=GB {}
+[INFO ] 2021-06-07T03:52:54,351Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623037974106) {}
+[INFO ] 2021-06-07T03:52:54,354Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Mock Company 2, L=London, C=GB {}
+[INFO ] 2021-06-07T03:52:54,368Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623037974106) {}
+[INFO ] 2021-06-07T03:52:54,368Z [Test worker] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T03:52:54,369Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623037974106) {}
+[INFO ] 2021-06-07T03:52:54,369Z [Test worker] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[WARN ] 2021-06-07T03:52:54,719Z [Mock network] transactions.TransactionBuilder. - Signature constraints not available on network requiring a minimum platform version of 4. Current is: 1. {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=9aad66e1-872f-4869-99d7-d5c9faf90cf8, invocation_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, invocation_timestamp=2021-06-07T03:52:54.429Z, origin=Only For Testing, session_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, session_timestamp=2021-06-07T03:52:54.429Z, thread-id=247}
+[WARN ] 2021-06-07T03:52:54,719Z [Mock network] transactions.TransactionBuilder. - Reverting back to using hash constraints for contract net.corda.samples.carinsurance.contracts.InsuranceContract {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=9aad66e1-872f-4869-99d7-d5c9faf90cf8, invocation_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, invocation_timestamp=2021-06-07T03:52:54.429Z, origin=Only For Testing, session_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, session_timestamp=2021-06-07T03:52:54.429Z, thread-id=247}
+[INFO ] 2021-06-07T03:52:55,207Z [Mock network] corda.flow. - No need to notarise this transaction. {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=9aad66e1-872f-4869-99d7-d5c9faf90cf8, invocation_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, invocation_timestamp=2021-06-07T03:52:54.429Z, origin=Only For Testing, session_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, session_timestamp=2021-06-07T03:52:54.429Z, thread-id=247, tx_id=82F3C37B0B5830BB5A2F26EA10CD2FA816B1870B0AB715D97BC08C0E49376A9E}
+[INFO ] 2021-06-07T03:52:55,207Z [Mock network] corda.flow. - Recording transaction locally. {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=9aad66e1-872f-4869-99d7-d5c9faf90cf8, invocation_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, invocation_timestamp=2021-06-07T03:52:54.429Z, origin=Only For Testing, session_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, session_timestamp=2021-06-07T03:52:54.429Z, thread-id=247, tx_id=82F3C37B0B5830BB5A2F26EA10CD2FA816B1870B0AB715D97BC08C0E49376A9E}
+[INFO ] 2021-06-07T03:52:55,376Z [Mock network] corda.flow. - Recorded transaction locally successfully. {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=9aad66e1-872f-4869-99d7-d5c9faf90cf8, invocation_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, invocation_timestamp=2021-06-07T03:52:54.429Z, origin=Only For Testing, session_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, session_timestamp=2021-06-07T03:52:54.429Z, thread-id=247, tx_id=82F3C37B0B5830BB5A2F26EA10CD2FA816B1870B0AB715D97BC08C0E49376A9E}
+[INFO ] 2021-06-07T03:52:55,672Z [Mock network] corda.flow. - Received transaction acknowledgement request from party O=Mock Company 1, L=London, C=GB. {fiber-id=10000002, flow-id=464b3c0d-2074-47cb-a2d7-96ddfbb299da, invocation_id=485f9345-e278-4167-9908-3c8d91398a98, invocation_timestamp=2021-06-07T03:52:55.596Z, origin=O=Mock Company 1, L=London, C=GB, session_id=485f9345-e278-4167-9908-3c8d91398a98, session_timestamp=2021-06-07T03:52:55.596Z, thread-id=247, tx_id=82F3C37B0B5830BB5A2F26EA10CD2FA816B1870B0AB715D97BC08C0E49376A9E}
+[INFO ] 2021-06-07T03:52:55,743Z [Mock network] corda.flow. - Transaction dependencies resolution completed. {fiber-id=10000002, flow-id=464b3c0d-2074-47cb-a2d7-96ddfbb299da, invocation_id=485f9345-e278-4167-9908-3c8d91398a98, invocation_timestamp=2021-06-07T03:52:55.596Z, origin=O=Mock Company 1, L=London, C=GB, session_id=485f9345-e278-4167-9908-3c8d91398a98, session_timestamp=2021-06-07T03:52:55.596Z, thread-id=247, tx_id=82F3C37B0B5830BB5A2F26EA10CD2FA816B1870B0AB715D97BC08C0E49376A9E}
+[INFO ] 2021-06-07T03:52:55,829Z [Mock network] corda.flow. - Successfully received fully signed tx. Sending it to the vault for processing. {fiber-id=10000002, flow-id=464b3c0d-2074-47cb-a2d7-96ddfbb299da, invocation_id=485f9345-e278-4167-9908-3c8d91398a98, invocation_timestamp=2021-06-07T03:52:55.596Z, origin=O=Mock Company 1, L=London, C=GB, session_id=485f9345-e278-4167-9908-3c8d91398a98, session_timestamp=2021-06-07T03:52:55.596Z, thread-id=247, tx_id=82F3C37B0B5830BB5A2F26EA10CD2FA816B1870B0AB715D97BC08C0E49376A9E}
+[INFO ] 2021-06-07T03:52:55,857Z [Mock network] corda.flow. - Successfully recorded received transaction locally. {fiber-id=10000002, flow-id=464b3c0d-2074-47cb-a2d7-96ddfbb299da, invocation_id=485f9345-e278-4167-9908-3c8d91398a98, invocation_timestamp=2021-06-07T03:52:55.596Z, origin=O=Mock Company 1, L=London, C=GB, session_id=485f9345-e278-4167-9908-3c8d91398a98, session_timestamp=2021-06-07T03:52:55.596Z, thread-id=247, tx_id=82F3C37B0B5830BB5A2F26EA10CD2FA816B1870B0AB715D97BC08C0E49376A9E}
+[INFO ] 2021-06-07T03:52:55,916Z [Mock network] corda.flow. - Party O=Mock Company 2, L=London, C=GB received the transaction. {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=9aad66e1-872f-4869-99d7-d5c9faf90cf8, invocation_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, invocation_timestamp=2021-06-07T03:52:54.429Z, origin=Only For Testing, session_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, session_timestamp=2021-06-07T03:52:54.429Z, thread-id=247, tx_id=82F3C37B0B5830BB5A2F26EA10CD2FA816B1870B0AB715D97BC08C0E49376A9E}
+[INFO ] 2021-06-07T03:52:55,917Z [Mock network] corda.flow. - All parties received the transaction successfully. {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=9aad66e1-872f-4869-99d7-d5c9faf90cf8, invocation_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, invocation_timestamp=2021-06-07T03:52:54.429Z, origin=Only For Testing, session_id=202e4f71-8dfc-4a20-95b0-fce0bed31f64, session_timestamp=2021-06-07T03:52:54.429Z, thread-id=247, tx_id=82F3C37B0B5830BB5A2F26EA10CD2FA816B1870B0AB715D97BC08C0E49376A9E}
+[INFO ] 2021-06-07T03:52:56,130Z [Test worker] persistence.CordaPersistence. - Closing HikariDataSource (HikariPool-1) {}
+[INFO ] 2021-06-07T03:52:56,159Z [Test worker] internal.MockNodeMessagingService. - Status change to false {}
+[INFO ] 2021-06-07T03:52:56,159Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: false {}
+[INFO ] 2021-06-07T03:52:56,164Z [Test worker] persistence.CordaPersistence. - Closing HikariDataSource (HikariPool-2) {}
+[INFO ] 2021-06-07T03:52:56,187Z [Test worker] internal.MockNodeMessagingService. - Status change to false {}
+[INFO ] 2021-06-07T03:52:56,187Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: false {}
+[INFO ] 2021-06-07T03:52:56,189Z [Test worker] persistence.CordaPersistence. - Closing HikariDataSource (HikariPool-3) {}
+[INFO ] 2021-06-07T03:52:56,216Z [Test worker] internal.MockNodeMessagingService. - Status change to false {}
+[INFO ] 2021-06-07T03:52:56,216Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: false {}
+[INFO ] 2021-06-07T06:25:44,638Z [Test worker] internal.TestCordappImpl. - Generating CorDapp jar from local project in C:\workspace\corda-custom-query-tests\workflows ... {}
+[INFO ] 2021-06-07T06:25:45,326Z [Connection worker] internal.TestCordappImpl. - Build {}
+[INFO ] 2021-06-07T06:25:49,064Z [Connection worker] internal.TestCordappImpl. - Starting Gradle Daemon {}
+[INFO ] 2021-06-07T06:25:52,196Z [Connection worker] internal.TestCordappImpl. - Connecting to Gradle Daemon {}
+[INFO ] 2021-06-07T06:25:52,218Z [Connection worker] internal.TestCordappImpl. - Starting Gradle Daemon {}
+[INFO ] 2021-06-07T06:25:52,219Z [Connection worker] internal.TestCordappImpl. - Build {}
+[INFO ] 2021-06-07T06:25:53,450Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T06:25:53,496Z [Connection worker] internal.TestCordappImpl. - Evaluate settings {}
+[INFO ] 2021-06-07T06:25:54,763Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T06:25:54,764Z [Connection worker] internal.TestCordappImpl. - Configure build {}
+[INFO ] 2021-06-07T06:25:54,764Z [Connection worker] internal.TestCordappImpl. - Load projects {}
+[INFO ] 2021-06-07T06:25:54,933Z [Connection worker] internal.TestCordappImpl. - Configure build {}
+[INFO ] 2021-06-07T06:25:54,934Z [Connection worker] internal.TestCordappImpl. - Configure project : {}
+[INFO ] 2021-06-07T06:25:55,529Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :classpath {}
+[INFO ] 2021-06-07T06:25:56,600Z [Connection worker] internal.TestCordappImpl. - Configure project : {}
+[INFO ] 2021-06-07T06:25:56,600Z [Connection worker] internal.TestCordappImpl. - Resolve files of :classpath {}
+[INFO ] 2021-06-07T06:25:56,647Z [Connection worker] internal.TestCordappImpl. - Configure project : {}
+[INFO ] 2021-06-07T06:25:56,647Z [Connection worker] internal.TestCordappImpl. - Resolve files of :classpath {}
+[INFO ] 2021-06-07T06:25:56,647Z [Connection worker] internal.TestCordappImpl. - Configure project : {}
+[INFO ] 2021-06-07T06:25:59,649Z [Connection worker] internal.TestCordappImpl. - Configure build {}
+[INFO ] 2021-06-07T06:25:59,649Z [Connection worker] internal.TestCordappImpl. - Configure project :clients {}
+[INFO ] 2021-06-07T06:25:59,902Z [Connection worker] internal.TestCordappImpl. - Configure build {}
+[INFO ] 2021-06-07T06:25:59,903Z [Connection worker] internal.TestCordappImpl. - Configure project :contracts {}
+[INFO ] 2021-06-07T06:25:59,979Z [Connection worker] internal.TestCordappImpl. - Configure build {}
+[INFO ] 2021-06-07T06:25:59,980Z [Connection worker] internal.TestCordappImpl. - Configure project :workflows {}
+[INFO ] 2021-06-07T06:26:00,308Z [Connection worker] internal.TestCordappImpl. - Configure build {}
+[INFO ] 2021-06-07T06:26:00,367Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T06:26:00,680Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :workflows:kotlinCompilerClasspath {}
+[INFO ] 2021-06-07T06:26:00,695Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T06:26:00,695Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:kotlinCompilerClasspath {}
+[INFO ] 2021-06-07T06:26:00,696Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T06:26:00,726Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :contracts:kotlinCompilerClasspath {}
+[INFO ] 2021-06-07T06:26:00,742Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T06:26:00,742Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:kotlinCompilerClasspath {}
+[INFO ] 2021-06-07T06:26:00,742Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T06:26:00,773Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:00,835Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T06:26:00,856Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:kotlinCompilerClasspath {}
+[INFO ] 2021-06-07T06:26:00,894Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T06:26:01,019Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :contracts:kotlinCompilerPluginClasspath {}
+[INFO ] 2021-06-07T06:26:01,048Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T06:26:01,049Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:kotlinCompilerPluginClasspath {}
+[INFO ] 2021-06-07T06:26:01,049Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T06:26:01,079Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :contracts:compileClasspath {}
+[INFO ] 2021-06-07T06:26:02,231Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T06:26:02,246Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:compileClasspath {}
+[INFO ] 2021-06-07T06:26:02,323Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T06:26:03,121Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:compileClasspath {}
+[INFO ] 2021-06-07T06:26:03,230Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T06:26:03,245Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:kotlinCompilerPluginClasspath {}
+[INFO ] 2021-06-07T06:26:03,245Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileKotlin {}
+[INFO ] 2021-06-07T06:26:03,291Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:03,291Z [Connection worker] internal.TestCordappImpl. - Task :contracts:compileJava {}
+[INFO ] 2021-06-07T06:26:03,291Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:03,306Z [Connection worker] internal.TestCordappImpl. - Task :contracts:processResources {}
+[INFO ] 2021-06-07T06:26:03,306Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:03,306Z [Connection worker] internal.TestCordappImpl. - Task :contracts:classes {}
+[INFO ] 2021-06-07T06:26:03,306Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:03,306Z [Connection worker] internal.TestCordappImpl. - Task :contracts:configureCordappFatJar {}
+[INFO ] 2021-06-07T06:26:03,322Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :contracts:runtime {}
+[INFO ] 2021-06-07T06:26:03,369Z [Connection worker] internal.TestCordappImpl. - Task :contracts:configureCordappFatJar {}
+[INFO ] 2021-06-07T06:26:03,371Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:runtime {}
+[INFO ] 2021-06-07T06:26:03,388Z [Connection worker] internal.TestCordappImpl. - Task :contracts:configureCordappFatJar {}
+[INFO ] 2021-06-07T06:26:03,389Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:runtime {}
+[INFO ] 2021-06-07T06:26:03,389Z [Connection worker] internal.TestCordappImpl. - Task :contracts:configureCordappFatJar {}
+[INFO ] 2021-06-07T06:26:03,390Z [Connection worker] internal.TestCordappImpl. - Resolve files of :contracts:runtime {}
+[INFO ] 2021-06-07T06:26:03,391Z [Connection worker] internal.TestCordappImpl. - Task :contracts:configureCordappFatJar {}
+[INFO ] 2021-06-07T06:26:03,419Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:03,419Z [Connection worker] internal.TestCordappImpl. - Task :contracts:inspectClassesForKotlinIC {}
+[INFO ] 2021-06-07T06:26:03,462Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:03,463Z [Connection worker] internal.TestCordappImpl. - Task :contracts:jar {}
+[INFO ] 2021-06-07T06:26:03,478Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:03,479Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T06:26:03,479Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:kotlinCompilerClasspath {}
+[INFO ] 2021-06-07T06:26:03,479Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T06:26:03,499Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :workflows:kotlinCompilerPluginClasspath {}
+[INFO ] 2021-06-07T06:26:03,525Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T06:26:03,526Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:kotlinCompilerPluginClasspath {}
+[INFO ] 2021-06-07T06:26:03,526Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T06:26:03,526Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :workflows:compileClasspath {}
+[INFO ] 2021-06-07T06:26:03,571Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T06:26:03,571Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:compileClasspath {}
+[INFO ] 2021-06-07T06:26:03,571Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T06:26:03,602Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:compileClasspath {}
+[INFO ] 2021-06-07T06:26:03,618Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T06:26:03,618Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:kotlinCompilerPluginClasspath {}
+[INFO ] 2021-06-07T06:26:03,618Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileKotlin {}
+[INFO ] 2021-06-07T06:26:03,618Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:03,632Z [Connection worker] internal.TestCordappImpl. - Task :workflows:compileJava {}
+[INFO ] 2021-06-07T06:26:03,635Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:03,636Z [Connection worker] internal.TestCordappImpl. - Task :workflows:processResources {}
+[INFO ] 2021-06-07T06:26:03,670Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:03,675Z [Connection worker] internal.TestCordappImpl. - Task :workflows:classes {}
+[INFO ] 2021-06-07T06:26:03,675Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:03,675Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T06:26:03,675Z [Connection worker] internal.TestCordappImpl. - Resolve dependencies of :workflows:runtime {}
+[INFO ] 2021-06-07T06:26:03,713Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T06:26:03,713Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:runtime {}
+[INFO ] 2021-06-07T06:26:03,713Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T06:26:03,713Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:runtime {}
+[INFO ] 2021-06-07T06:26:03,713Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T06:26:03,713Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:runtime {}
+[INFO ] 2021-06-07T06:26:03,713Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T06:26:03,714Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:runtime {}
+[INFO ] 2021-06-07T06:26:03,714Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T06:26:03,714Z [Connection worker] internal.TestCordappImpl. - Resolve files of :workflows:runtime {}
+[INFO ] 2021-06-07T06:26:03,714Z [Connection worker] internal.TestCordappImpl. - Task :workflows:configureCordappFatJar {}
+[INFO ] 2021-06-07T06:26:03,714Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:03,728Z [Connection worker] internal.TestCordappImpl. - Task :workflows:inspectClassesForKotlinIC {}
+[INFO ] 2021-06-07T06:26:03,776Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:03,777Z [Connection worker] internal.TestCordappImpl. - Task :workflows:jar {}
+[INFO ] 2021-06-07T06:26:06,395Z [Connection worker] internal.TestCordappImpl. - Run tasks {}
+[INFO ] 2021-06-07T06:26:06,423Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T06:26:06,424Z [Connection worker] internal.TestCordappImpl. - Build model 'java.lang.Void' for project ':workflows' {}
+[INFO ] 2021-06-07T06:26:06,424Z [Connection worker] internal.TestCordappImpl. - Run build {}
+[INFO ] 2021-06-07T06:26:06,444Z [Connection worker] internal.TestCordappImpl. - Build {}
+[INFO ] 2021-06-07T06:26:06,485Z [Connection worker] internal.TestCordappImpl. - Deleting unused version-specific caches in C:\workspace\corda-custom-query-tests\.gradle {}
+[INFO ] 2021-06-07T06:26:06,485Z [Connection worker] internal.TestCordappImpl. - Build {}
+[INFO ] 2021-06-07T06:26:06,536Z [Connection worker] internal.TestCordappImpl. -  {}
+[INFO ] 2021-06-07T06:26:12,677Z [Test worker] cordapp.JarScanningCordappLoader. - Looking for CorDapps in [build\mock-network\20210607-062541.972-BE2C51176A6A48B3\nodes\0\cordapps] {}
+[INFO ] 2021-06-07T06:26:12,689Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-062541.972-BE2C51176A6A48B3/nodes/0/cordapps/contracts-0.1.jar, rootPackageName=null), RestrictedURL(url=file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-062541.972-BE2C51176A6A48B3/nodes/0/cordapps/workflows-0.1.jar, rootPackageName=null) {}
+[INFO ] 2021-06-07T06:26:12,711Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-062541.972-BE2C51176A6A48B3/nodes/0/cordapps/contracts-0.1.jar {}
+[INFO ] 2021-06-07T06:26:12,951Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-062541.972-BE2C51176A6A48B3/nodes/0/cordapps/workflows-0.1.jar {}
+[INFO ] 2021-06-07T06:26:14,444Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: false {}
+[INFO ] 2021-06-07T06:26:15,372Z [Test worker] internal.InternalMockNetwork$MockNode. - Flow external operation executor has a max of 2 threads {}
+[INFO ] 2021-06-07T06:26:15,458Z [Test worker] internal.InternalMockNetwork$MockNode. - Node starting up ... {}
+[INFO ] 2021-06-07T06:26:15,654Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.BurnInsurance to initiate net.corda.samples.carinsurance.flows.BurnResponder (version 1) {}
+[INFO ] 2021-06-07T06:26:15,655Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.InsuranceClaim to initiate net.corda.samples.carinsurance.flows.InsuranceClaimResponder (version 1) {}
+[INFO ] 2021-06-07T06:26:15,656Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.IssueInsurance to initiate net.corda.samples.carinsurance.flows.IssueInsuranceResponder (version 1) {}
+[INFO ] 2021-06-07T06:26:15,860Z [Test worker] internal.InternalMockNetwork$MockNode. - Loaded network parameters: NetworkParameters {
+      minimumPlatformVersion=1
+      notaries=[NotaryInfo(identity=O=Notary Service, L=Zurich, C=CH, validating=true)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2021-06-07T06:25:41.851Z
+      epoch=1
+  } {}
+[INFO ] 2021-06-07T06:26:26,049Z [Test worker] internal.InternalMockNetwork$MockNode. - Connected to H2 database. {}
+[INFO ] 2021-06-07T06:26:26,236Z [Test worker] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1), JPANotarySchemaV1(name=net.corda.notary.jpa.JPANotarySchema, version=1)] {}
+[INFO ] 2021-06-07T06:26:26,251Z [Test worker] factory.BaseSessionFactoryFactory. - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1), JPANotarySchemaV1(name=net.corda.notary.jpa.JPANotarySchema, version=1)] {}
+[INFO ] 2021-06-07T06:26:32,754Z [Test worker] factory.BaseSessionFactoryFactory. - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1), JPANotarySchemaV1(name=net.corda.notary.jpa.JPANotarySchema, version=1)] {}
+[INFO ] 2021-06-07T06:26:33,372Z [Test worker] internal.InternalMockNetwork$MockNode. - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2021-06-07T06:26:33,372Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623047193372) {}
+[INFO ] 2021-06-07T06:26:33,387Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Notary Service, L=Zurich, C=CH {}
+[INFO ] 2021-06-07T06:26:33,773Z [Test worker] internal.InternalMockNetwork$MockNode. - New node-info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623047193372) {}
+[INFO ] 2021-06-07T06:26:33,911Z [Test worker] network.NetworkMapUpdater. - Auto-accept enabled for network parameter changes which modify only: [epoch, modifiedTime, packageOwnership, whitelistedContractImplementations] {}
+[INFO ] 2021-06-07T06:26:33,943Z [Test worker] internal.MockNodeMessagingService. - Status change to true {}
+[INFO ] 2021-06-07T06:26:33,947Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: true {}
+[INFO ] 2021-06-07T06:26:33,980Z [MockNode-1-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623047193372) {}
+[INFO ] 2021-06-07T06:26:34,038Z [MockNode-1-2] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T06:26:34,293Z [Test worker] persistence.NodeAttachmentService. - Stored new attachment: id=EB8B63CFC03E495C3F18E00221963B544ABE69371C3077A4D608AA257F53E09B uploader=app filename=Queryablestate Car Insurance {}
+[INFO ] 2021-06-07T06:26:34,312Z [Test worker] utilities.NotaryLoader. - Starting notary service: class net.corda.notary.jpa.JPANotaryService {}
+[INFO ] 2021-06-07T06:26:35,274Z [Test worker] statemachine.SingleThreadedStateMachineManager. - Node ready, info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623047193372) {}
+[INFO ] 2021-06-07T06:26:35,295Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623047193372) {}
+[INFO ] 2021-06-07T06:26:35,298Z [Test worker] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T06:26:35,300Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623047193372) {}
+[INFO ] 2021-06-07T06:26:35,300Z [Test worker] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T06:26:35,353Z [Test worker] cordapp.JarScanningCordappLoader. - Looking for CorDapps in [build\mock-network\20210607-062541.972-BE2C51176A6A48B3\nodes\1\cordapps] {}
+[INFO ] 2021-06-07T06:26:35,354Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-062541.972-BE2C51176A6A48B3/nodes/1/cordapps/contracts-0.1.jar, rootPackageName=null), RestrictedURL(url=file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-062541.972-BE2C51176A6A48B3/nodes/1/cordapps/workflows-0.1.jar, rootPackageName=null) {}
+[INFO ] 2021-06-07T06:26:35,354Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-062541.972-BE2C51176A6A48B3/nodes/1/cordapps/contracts-0.1.jar {}
+[INFO ] 2021-06-07T06:26:35,596Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-062541.972-BE2C51176A6A48B3/nodes/1/cordapps/workflows-0.1.jar {}
+[INFO ] 2021-06-07T06:26:35,686Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: false {}
+[INFO ] 2021-06-07T06:26:35,689Z [Test worker] internal.InternalMockNetwork$MockNode. - Flow external operation executor has a max of 2 threads {}
+[INFO ] 2021-06-07T06:26:35,698Z [Test worker] internal.InternalMockNetwork$MockNode. - Node starting up ... {}
+[INFO ] 2021-06-07T06:26:35,819Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.BurnInsurance to initiate net.corda.samples.carinsurance.flows.BurnResponder (version 1) {}
+[INFO ] 2021-06-07T06:26:35,820Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.InsuranceClaim to initiate net.corda.samples.carinsurance.flows.InsuranceClaimResponder (version 1) {}
+[INFO ] 2021-06-07T06:26:35,820Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.IssueInsurance to initiate net.corda.samples.carinsurance.flows.IssueInsuranceResponder (version 1) {}
+[INFO ] 2021-06-07T06:26:35,836Z [Test worker] internal.InternalMockNetwork$MockNode. - Loaded network parameters: NetworkParameters {
+      minimumPlatformVersion=1
+      notaries=[NotaryInfo(identity=O=Notary Service, L=Zurich, C=CH, validating=true)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2021-06-07T06:25:41.851Z
+      epoch=1
+  } {}
+[INFO ] 2021-06-07T06:26:37,809Z [Test worker] internal.InternalMockNetwork$MockNode. - Connected to H2 database. {}
+[INFO ] 2021-06-07T06:26:37,827Z [Test worker] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1)] {}
+[INFO ] 2021-06-07T06:26:37,827Z [Test worker] factory.BaseSessionFactoryFactory. - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1)] {}
+[INFO ] 2021-06-07T06:26:38,267Z [Test worker] factory.BaseSessionFactoryFactory. - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1)] {}
+[INFO ] 2021-06-07T06:26:38,270Z [Test worker] internal.InternalMockNetwork$MockNode. - identity-private-key not found in key store, generating fresh key! {}
+[INFO ] 2021-06-07T06:26:38,344Z [Test worker] internal.InternalMockNetwork$MockNode. - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2021-06-07T06:26:38,344Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623047198344) {}
+[INFO ] 2021-06-07T06:26:38,347Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Mock Company 1, L=London, C=GB {}
+[INFO ] 2021-06-07T06:26:38,374Z [Test worker] internal.InternalMockNetwork$MockNode. - New node-info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623047198344) {}
+[INFO ] 2021-06-07T06:26:38,396Z [Test worker] network.NetworkMapUpdater. - Auto-accept enabled for network parameter changes which modify only: [epoch, modifiedTime, packageOwnership, whitelistedContractImplementations] {}
+[INFO ] 2021-06-07T06:26:38,397Z [Test worker] internal.MockNodeMessagingService. - Status change to true {}
+[INFO ] 2021-06-07T06:26:38,397Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: true {}
+[INFO ] 2021-06-07T06:26:38,405Z [MockNode-2-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623047198344) {}
+[INFO ] 2021-06-07T06:26:38,415Z [MockNode-2-2] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T06:26:38,539Z [Test worker] persistence.NodeAttachmentService. - Stored new attachment: id=EB8B63CFC03E495C3F18E00221963B544ABE69371C3077A4D608AA257F53E09B uploader=app filename=Queryablestate Car Insurance {}
+[INFO ] 2021-06-07T06:26:38,584Z [Test worker] statemachine.SingleThreadedStateMachineManager. - Node ready, info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623047198344) {}
+[INFO ] 2021-06-07T06:26:38,585Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623047193372) {}
+[INFO ] 2021-06-07T06:26:38,588Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Notary Service, L=Zurich, C=CH {}
+[INFO ] 2021-06-07T06:26:38,608Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623047198344) {}
+[INFO ] 2021-06-07T06:26:38,611Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Mock Company 1, L=London, C=GB {}
+[INFO ] 2021-06-07T06:26:38,629Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623047198344) {}
+[INFO ] 2021-06-07T06:26:38,629Z [Test worker] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T06:26:38,631Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623047198344) {}
+[INFO ] 2021-06-07T06:26:38,631Z [Test worker] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T06:26:38,665Z [Test worker] cordapp.JarScanningCordappLoader. - Looking for CorDapps in [build\mock-network\20210607-062541.972-BE2C51176A6A48B3\nodes\2\cordapps] {}
+[INFO ] 2021-06-07T06:26:38,667Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-062541.972-BE2C51176A6A48B3/nodes/2/cordapps/contracts-0.1.jar, rootPackageName=null), RestrictedURL(url=file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-062541.972-BE2C51176A6A48B3/nodes/2/cordapps/workflows-0.1.jar, rootPackageName=null) {}
+[INFO ] 2021-06-07T06:26:38,667Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-062541.972-BE2C51176A6A48B3/nodes/2/cordapps/contracts-0.1.jar {}
+[INFO ] 2021-06-07T06:26:38,785Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/C:/workspace/corda-custom-query-tests/workflows/build/mock-network/20210607-062541.972-BE2C51176A6A48B3/nodes/2/cordapps/workflows-0.1.jar {}
+[INFO ] 2021-06-07T06:26:38,853Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: false {}
+[INFO ] 2021-06-07T06:26:38,857Z [Test worker] internal.InternalMockNetwork$MockNode. - Flow external operation executor has a max of 2 threads {}
+[INFO ] 2021-06-07T06:26:38,862Z [Test worker] internal.InternalMockNetwork$MockNode. - Node starting up ... {}
+[INFO ] 2021-06-07T06:26:38,959Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.BurnInsurance to initiate net.corda.samples.carinsurance.flows.BurnResponder (version 1) {}
+[INFO ] 2021-06-07T06:26:38,960Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.InsuranceClaim to initiate net.corda.samples.carinsurance.flows.InsuranceClaimResponder (version 1) {}
+[INFO ] 2021-06-07T06:26:38,960Z [Test worker] internal.NodeFlowManager. - Registered net.corda.samples.carinsurance.flows.IssueInsurance to initiate net.corda.samples.carinsurance.flows.IssueInsuranceResponder (version 1) {}
+[INFO ] 2021-06-07T06:26:38,969Z [Test worker] internal.InternalMockNetwork$MockNode. - Loaded network parameters: NetworkParameters {
+      minimumPlatformVersion=1
+      notaries=[NotaryInfo(identity=O=Notary Service, L=Zurich, C=CH, validating=true)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2021-06-07T06:25:41.851Z
+      epoch=1
+  } {}
+[INFO ] 2021-06-07T06:26:39,787Z [Test worker] internal.InternalMockNetwork$MockNode. - Connected to H2 database. {}
+[INFO ] 2021-06-07T06:26:39,791Z [Test worker] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1)] {}
+[INFO ] 2021-06-07T06:26:39,792Z [Test worker] factory.BaseSessionFactoryFactory. - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1)] {}
+[INFO ] 2021-06-07T06:26:40,106Z [Test worker] factory.BaseSessionFactoryFactory. - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), InsuranceSchemaV1(name=net.corda.samples.carinsurance.schema.InsuranceSchema, version=1)] {}
+[INFO ] 2021-06-07T06:26:40,109Z [Test worker] internal.InternalMockNetwork$MockNode. - identity-private-key not found in key store, generating fresh key! {}
+[INFO ] 2021-06-07T06:26:40,169Z [Test worker] internal.InternalMockNetwork$MockNode. - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2021-06-07T06:26:40,169Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623047200169) {}
+[INFO ] 2021-06-07T06:26:40,173Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Mock Company 2, L=London, C=GB {}
+[INFO ] 2021-06-07T06:26:40,186Z [Test worker] internal.InternalMockNetwork$MockNode. - New node-info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623047200169) {}
+[INFO ] 2021-06-07T06:26:40,205Z [Test worker] network.NetworkMapUpdater. - Auto-accept enabled for network parameter changes which modify only: [epoch, modifiedTime, packageOwnership, whitelistedContractImplementations] {}
+[INFO ] 2021-06-07T06:26:40,206Z [Test worker] internal.MockNodeMessagingService. - Status change to true {}
+[INFO ] 2021-06-07T06:26:40,206Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: true {}
+[INFO ] 2021-06-07T06:26:40,219Z [MockNode-3-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623047200169) {}
+[INFO ] 2021-06-07T06:26:40,229Z [MockNode-3-2] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T06:26:40,332Z [Test worker] persistence.NodeAttachmentService. - Stored new attachment: id=EB8B63CFC03E495C3F18E00221963B544ABE69371C3077A4D608AA257F53E09B uploader=app filename=Queryablestate Car Insurance {}
+[INFO ] 2021-06-07T06:26:40,369Z [Test worker] statemachine.SingleThreadedStateMachineManager. - Node ready, info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623047200169) {}
+[INFO ] 2021-06-07T06:26:40,369Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=8, serial=1623047193372) {}
+[INFO ] 2021-06-07T06:26:40,372Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Notary Service, L=Zurich, C=CH {}
+[INFO ] 2021-06-07T06:26:40,389Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623047200169) {}
+[INFO ] 2021-06-07T06:26:40,392Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Mock Company 2, L=London, C=GB {}
+[INFO ] 2021-06-07T06:26:40,415Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 1, L=London, C=GB], platformVersion=8, serial=1623047198344) {}
+[INFO ] 2021-06-07T06:26:40,417Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Mock Company 1, L=London, C=GB {}
+[INFO ] 2021-06-07T06:26:40,434Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623047200169) {}
+[INFO ] 2021-06-07T06:26:40,436Z [Test worker] network.PersistentNetworkMapCache. - No previous node found for O=Mock Company 2, L=London, C=GB {}
+[INFO ] 2021-06-07T06:26:40,454Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623047200169) {}
+[INFO ] 2021-06-07T06:26:40,455Z [Test worker] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2021-06-07T06:26:40,456Z [Test worker] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[mock.node:1000], legalIdentitiesAndCerts=[O=Mock Company 2, L=London, C=GB], platformVersion=8, serial=1623047200169) {}
+[INFO ] 2021-06-07T06:26:40,456Z [Test worker] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[WARN ] 2021-06-07T06:26:40,867Z [Mock network] transactions.TransactionBuilder. - Signature constraints not available on network requiring a minimum platform version of 4. Current is: 1. {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=3051fe67-f8dd-435b-aa53-e7c0b58513f1, invocation_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, invocation_timestamp=2021-06-07T06:26:40.528Z, origin=Only For Testing, session_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, session_timestamp=2021-06-07T06:26:40.528Z, thread-id=248}
+[WARN ] 2021-06-07T06:26:40,867Z [Mock network] transactions.TransactionBuilder. - Reverting back to using hash constraints for contract net.corda.samples.carinsurance.contracts.InsuranceContract {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=3051fe67-f8dd-435b-aa53-e7c0b58513f1, invocation_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, invocation_timestamp=2021-06-07T06:26:40.528Z, origin=Only For Testing, session_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, session_timestamp=2021-06-07T06:26:40.528Z, thread-id=248}
+[INFO ] 2021-06-07T06:26:41,402Z [Mock network] corda.flow. - No need to notarise this transaction. {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=3051fe67-f8dd-435b-aa53-e7c0b58513f1, invocation_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, invocation_timestamp=2021-06-07T06:26:40.528Z, origin=Only For Testing, session_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, session_timestamp=2021-06-07T06:26:40.528Z, thread-id=248, tx_id=0B9A70DA436EBC691B6D16E4DE926F5F09B23B64A396BE37FD4ECC91EB3C1ED7}
+[INFO ] 2021-06-07T06:26:41,402Z [Mock network] corda.flow. - Recording transaction locally. {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=3051fe67-f8dd-435b-aa53-e7c0b58513f1, invocation_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, invocation_timestamp=2021-06-07T06:26:40.528Z, origin=Only For Testing, session_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, session_timestamp=2021-06-07T06:26:40.528Z, thread-id=248, tx_id=0B9A70DA436EBC691B6D16E4DE926F5F09B23B64A396BE37FD4ECC91EB3C1ED7}
+[INFO ] 2021-06-07T06:26:41,720Z [Mock network] corda.flow. - Recorded transaction locally successfully. {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=3051fe67-f8dd-435b-aa53-e7c0b58513f1, invocation_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, invocation_timestamp=2021-06-07T06:26:40.528Z, origin=Only For Testing, session_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, session_timestamp=2021-06-07T06:26:40.528Z, thread-id=248, tx_id=0B9A70DA436EBC691B6D16E4DE926F5F09B23B64A396BE37FD4ECC91EB3C1ED7}
+[INFO ] 2021-06-07T06:26:42,252Z [Mock network] corda.flow. - Received transaction acknowledgement request from party O=Mock Company 1, L=London, C=GB. {fiber-id=10000002, flow-id=90bece85-a317-4c3b-bd95-c5bc348fee1d, invocation_id=0f97dcfd-96f1-4c94-8a84-2068480c3017, invocation_timestamp=2021-06-07T06:26:42.155Z, origin=O=Mock Company 1, L=London, C=GB, session_id=0f97dcfd-96f1-4c94-8a84-2068480c3017, session_timestamp=2021-06-07T06:26:42.155Z, thread-id=248, tx_id=0B9A70DA436EBC691B6D16E4DE926F5F09B23B64A396BE37FD4ECC91EB3C1ED7}
+[INFO ] 2021-06-07T06:26:42,373Z [Mock network] corda.flow. - Transaction dependencies resolution completed. {fiber-id=10000002, flow-id=90bece85-a317-4c3b-bd95-c5bc348fee1d, invocation_id=0f97dcfd-96f1-4c94-8a84-2068480c3017, invocation_timestamp=2021-06-07T06:26:42.155Z, origin=O=Mock Company 1, L=London, C=GB, session_id=0f97dcfd-96f1-4c94-8a84-2068480c3017, session_timestamp=2021-06-07T06:26:42.155Z, thread-id=248, tx_id=0B9A70DA436EBC691B6D16E4DE926F5F09B23B64A396BE37FD4ECC91EB3C1ED7}
+[INFO ] 2021-06-07T06:26:42,485Z [Mock network] corda.flow. - Successfully received fully signed tx. Sending it to the vault for processing. {fiber-id=10000002, flow-id=90bece85-a317-4c3b-bd95-c5bc348fee1d, invocation_id=0f97dcfd-96f1-4c94-8a84-2068480c3017, invocation_timestamp=2021-06-07T06:26:42.155Z, origin=O=Mock Company 1, L=London, C=GB, session_id=0f97dcfd-96f1-4c94-8a84-2068480c3017, session_timestamp=2021-06-07T06:26:42.155Z, thread-id=248, tx_id=0B9A70DA436EBC691B6D16E4DE926F5F09B23B64A396BE37FD4ECC91EB3C1ED7}
+[INFO ] 2021-06-07T06:26:42,502Z [Mock network] corda.flow. - Successfully recorded received transaction locally. {fiber-id=10000002, flow-id=90bece85-a317-4c3b-bd95-c5bc348fee1d, invocation_id=0f97dcfd-96f1-4c94-8a84-2068480c3017, invocation_timestamp=2021-06-07T06:26:42.155Z, origin=O=Mock Company 1, L=London, C=GB, session_id=0f97dcfd-96f1-4c94-8a84-2068480c3017, session_timestamp=2021-06-07T06:26:42.155Z, thread-id=248, tx_id=0B9A70DA436EBC691B6D16E4DE926F5F09B23B64A396BE37FD4ECC91EB3C1ED7}
+[INFO ] 2021-06-07T06:26:42,582Z [Mock network] corda.flow. - Party O=Mock Company 2, L=London, C=GB received the transaction. {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=3051fe67-f8dd-435b-aa53-e7c0b58513f1, invocation_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, invocation_timestamp=2021-06-07T06:26:40.528Z, origin=Only For Testing, session_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, session_timestamp=2021-06-07T06:26:40.528Z, thread-id=248, tx_id=0B9A70DA436EBC691B6D16E4DE926F5F09B23B64A396BE37FD4ECC91EB3C1ED7}
+[INFO ] 2021-06-07T06:26:42,583Z [Mock network] corda.flow. - All parties received the transaction successfully. {actor_id=Only For Testing, actor_owning_identity=O=Mock Company 1, L=London, C=GB, actor_store_id=TEST, fiber-id=10000001, flow-id=3051fe67-f8dd-435b-aa53-e7c0b58513f1, invocation_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, invocation_timestamp=2021-06-07T06:26:40.528Z, origin=Only For Testing, session_id=9b2ce393-8f46-4f30-9011-56d7b11bcddd, session_timestamp=2021-06-07T06:26:40.528Z, thread-id=248, tx_id=0B9A70DA436EBC691B6D16E4DE926F5F09B23B64A396BE37FD4ECC91EB3C1ED7}
+[INFO ] 2021-06-07T06:26:42,882Z [Test worker] persistence.CordaPersistence. - Closing HikariDataSource (HikariPool-1) {}
+[INFO ] 2021-06-07T06:26:42,929Z [Test worker] internal.MockNodeMessagingService. - Status change to false {}
+[INFO ] 2021-06-07T06:26:42,929Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: false {}
+[INFO ] 2021-06-07T06:26:42,936Z [Test worker] persistence.CordaPersistence. - Closing HikariDataSource (HikariPool-2) {}
+[INFO ] 2021-06-07T06:26:42,976Z [Test worker] internal.MockNodeMessagingService. - Status change to false {}
+[INFO ] 2021-06-07T06:26:42,976Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: false {}
+[INFO ] 2021-06-07T06:26:42,979Z [Test worker] persistence.CordaPersistence. - Closing HikariDataSource (HikariPool-3) {}
+[INFO ] 2021-06-07T06:26:43,022Z [Test worker] internal.MockNodeMessagingService. - Status change to false {}
+[INFO ] 2021-06-07T06:26:43,022Z [Test worker] internal.InternalMockNetwork$MockNode. - MessagingService active change to: false {}

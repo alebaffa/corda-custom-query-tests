@@ -43,6 +43,7 @@ class IssueInsurance(val insuranceInfo: InsuranceInfo,
                 vehicleInfo.chasisNumber, vehicleInfo.make,
                 vehicleInfo.model, vehicleInfo.variant, vehicleInfo.color, vehicleInfo.fuelType)
 
+
         // Build the insurance output state.
         val output = InsuranceState(insuranceInfo.policyNumber, insuranceInfo.insuredValue, insuranceInfo.duration, insuranceInfo.premium, insurer, insuree, vDetail)
 

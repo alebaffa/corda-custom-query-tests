@@ -1,5 +1,5 @@
-.gradle
+.gradle/*
 **/build/*
-**/logs/*
+/**/logs/*
 ## Directory-based project format:
 .idea
